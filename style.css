@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=League+Spartan:wght@400;500&family=Lexend+Deca&family=Montserrat:wght@500&family=Mulish:wght@500&family=Open+Sans&family=Outfit:wght@300&family=Overpass:ital,wght@0,300;1,300&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500&family=Roboto:ital,wght@0,500;1,500&family=Rubik&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Barlow Semi Condensed';
+}
+.container{
+    width: 700px;
+    display: flex;
+   
+}
+.section1{
+    display: flex;
+    width: 500px;
+}
+.part{
+    width: 350px;
+    background: hsl(263, 55%, 52%);
+    border-radius: 7px;
+    height: 200px;
+    color:  hsl(0, 0%, 81%);
+    margin-right: 10px;
+}
+.part .head{
+    display: flex;
+}
+.part .head img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.part .head h1{
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+.part .head h3{
+    font-size: 0.7rem;
+}
+.part h1{
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.part p{
+    padding: 0 10px;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+
+.part1{
+    width: 170px;
+    background: hsl(217, 19%, 35%);
+    border-radius: 7px;
+    height: 200px;
+    color:  hsl(0, 0%, 81%);
+}
+.part1 .head{
+    display: flex;
+}
+.part1 .head img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.part1 .head h1{
+    font-size: 0.6rem;
+    padding-top: 20px;
+}
+.part1 .head h3{
+    font-size: 0.6rem;
+}
+.part1 h1{
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.part1 p{
+    padding: 0 10px;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.under{
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.part3{
+    width: 170px;
+    background:  hsl(0, 0%, 100%)    ;
+    border-radius: 7px;
+    height: 200px;
+    color: hsl(0, 0%, 81%);
+    margin-right: 10px;
+}
+.part3 .head{
+    display: flex;
+}
+.part3 .head img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.part3 .head h1{
+    font-size: 0.6rem;
+    padding-top: 20px;
+    color: hsl(0, 0%, 81%);
+}
+.part3 .head h3{
+    font-size: 0.6rem;
+}
+.part3 h1{
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:  hsl(219, 29%, 14%);
+}
+.part3 p{
+    padding: 0 10px;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.part4{
+    width: 350px;
+    background: hsl(219, 29%, 14%);
+    border-radius: 7px;
+    height: 200px;
+    color:  hsl(0, 0%, 100%);
+}
+.part4 .head{
+    display: flex;
+}
+.part4 .head img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.part4 .head h1{
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+.part4 .head h3{
+    font-size: 0.7rem;
+}
+.part4 h1{
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.part4 p{
+    padding: 0 10px;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+
+.section2{
+    width: 320px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    height: 420px;
+    color:  hsl(0, 0%, 81%);
+    margin-left: 10px;
+}
+.section2 .head{
+    display: flex;
+}
+.section2 .head img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.section2 .head h1{
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+.section2 .head h3{
+    font-size: 0.7rem;
+}
+.section2 h1{
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.section2 p{
+    padding: 0 10px;
+    font-size: 0.66rem;
+    font-weight: 500;
+}
+
+
+@media  only screen and (max-width:600px) {
+    .container {
+        margin-top: 30px;
+        display: block;
+        margin-left: 200px;
+    }
+    .section1{
+        display: block;
+        
+    }
+    .under{
+        display: block;
+    }
+    .part{
+        margin-bottom: 20px;
+        width: 170px;
+        background: hsl(263, 55%, 52%);
+        border-radius: 7px;
+        height: 300px;
+        color:  hsl(0, 0%, 81%);   
+}
+.part4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    background: hsl(219, 29%, 14%);
+    border-radius: 7px;
+    height: 300px;
+    color:  hsl(0, 0%, 100%);
+}
+.section2{
+    width: 170px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    height: 420px;
+    color:  hsl(0, 0%, 81%);
+    margin-left: 10px;
+}
+}
